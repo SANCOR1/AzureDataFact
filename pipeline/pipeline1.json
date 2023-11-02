@@ -92,7 +92,7 @@
 											"type": "Expression"
 										},
 										"tabla": {
-											"value": "@item().table",
+											"value": "@item().tabla",
 											"type": "Expression"
 										}
 									}
@@ -108,7 +108,7 @@
 											"type": "Expression"
 										},
 										"tabla": {
-											"value": "@item().table",
+											"value": "@item().tabla",
 											"type": "Expression"
 										}
 									}
