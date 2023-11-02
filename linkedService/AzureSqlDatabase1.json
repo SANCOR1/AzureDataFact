@@ -1,0 +1,22 @@
+{
+	"name": "AzureSqlDatabase1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault_Sancor",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "DatabaseConectiondatabase1",
+				"secretVersion": "32b7e461eed047c2b71dc48d2434b05c"
+			}
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
