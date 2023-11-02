@@ -1,0 +1,63 @@
+{
+	"name": "pipeline2",
+	"properties": {
+		"activities": [
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [
+					{
+						"activity": "Set variable1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@variables('tabla')",
+						"type": "Expression"
+					},
+					"isSequential": true
+				}
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "tabla",
+					"value": {
+						"value": "@json('[\n  {\n      \"schema\": \"dbo\",    \n        \"schema2\": \"finance\",     \n        \"tabla\":\"LogisticsAddressCountryRegionStaging\" ,   \n        \"pk_integracion\": \"COUNTRYREGION\"\n        },\n]')",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"schema": {
+				"type": "string",
+				"defaultValue": "dbo"
+			},
+			"schema2": {
+				"type": "string",
+				"defaultValue": "dbt"
+			}
+		},
+		"variables": {
+			"tabla": {
+				"type": "Array",
+				"defaultValue": [
+					"LogisticsAddressCountryRegionStaging"
+				]
+			}
+		},
+		"annotations": []
+	}
+}
