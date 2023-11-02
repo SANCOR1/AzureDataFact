@@ -59,13 +59,13 @@
 			}
 		],
 		"parameters": {
-			"Schema": {
+			"Schema1": {
 				"type": "array",
 				"defaultValue": [
 					"Finance"
 				]
 			},
-			"Schema1": {
+			"Schema2": {
 				"type": "array",
 				"defaultValue": [
 					"dbo"
