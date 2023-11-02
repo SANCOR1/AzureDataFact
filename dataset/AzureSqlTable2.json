@@ -2,14 +2,14 @@
 	"name": "AzureSqlTable2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase1",
+			"referenceName": "AzureSqlDatabase2",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
 			"URL_Key_vault": {
 				"type": "string"
 			},
-			"Schema1": {
+			"Schema2": {
 				"type": "string"
 			},
 			"Table": {
@@ -21,7 +21,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": {
-				"value": "@dataset().Schema1",
+				"value": "@dataset().Schema2",
 				"type": "Expression"
 			},
 			"table": {
