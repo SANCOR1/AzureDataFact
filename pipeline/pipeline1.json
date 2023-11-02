@@ -78,10 +78,6 @@
 									"referenceName": "AzureSqlTable1",
 									"type": "DatasetReference",
 									"parameters": {
-										"URL_Key_vault": {
-											"value": "https://kv-almacenamientocurso.vault.azure.net/",
-											"type": "Expression"
-										},
 										"schema": {
 											"value": "@item().schema",
 											"type": "Expression"
@@ -98,10 +94,6 @@
 									"referenceName": "AzureSqlTable2",
 									"type": "DatasetReference",
 									"parameters": {
-										"URL_Key_vault": {
-											"value": "https://kv-almacenamientocurso.vault.azure.net/",
-											"type": "Expression"
-										},
 										"schema2": {
 											"value": "@item().schema2",
 											"type": "Expression"
