@@ -90,7 +90,7 @@
 					"Finance"
 				]
 			},
-			"Schema2": {
+			"schema2": {
 				"type": "array",
 				"defaultValue": [
 					"dbo"
