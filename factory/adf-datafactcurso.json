@@ -1,0 +1,9 @@
+{
+	"name": "adf-datafactcurso",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a91c59c8-743c-4f31-913f-b8ff6bde703d",
+		"tenantId": "49e498a6-563b-4187-915f-ff6685d72d17"
+	}
+}
