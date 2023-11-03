@@ -45,7 +45,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('GetFileList').output.childItems",
+						"value": "@activity('GetFileList').output.exists",
 						"type": "Expression"
 					},
 					"condition": {
