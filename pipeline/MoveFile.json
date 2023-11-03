@@ -120,11 +120,11 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"contenedor": {
-											"value": "@pipeline().parameters.SourceStore_Location",
+											"value": "https://stsancor.blob.core.windows.net/ejercicio3",
 											"type": "Expression"
 										},
 										"directorio": {
-											"value": "@pipeline().parameters.SourceStore_Directory",
+											"value": "https://stsancor.blob.core.windows.net/ejercicio3/Creacion.xlsb",
 											"type": "Expression"
 										},
 										"filename": {
@@ -140,11 +140,11 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"contenedor": {
-											"value": "@pipeline().parameters.DestinationStore_Location",
+											"value": "https://stsancor.blob.core.windows.net/ejercicio4",
 											"type": "Expression"
 										},
 										"directorio": {
-											"value": "@pipeline().parameters.DestinationStore_Directory",
+											"value": "https://stsancor.blob.core.windows.net/ejercicio4/Creacion.xlsb",
 											"type": "Expression"
 										},
 										"filename": {
@@ -205,24 +205,6 @@
 				}
 			}
 		],
-		"parameters": {
-			"SourceStore_Location": {
-				"type": "string",
-				"defaultValue": "https://stsancor.blob.core.windows.net/ejercicio3/Creacion.xlsb"
-			},
-			"SourceStore_Directory": {
-				"type": "string",
-				"defaultValue": "https://stsancor.blob.core.windows.net/ejercicio3"
-			},
-			"DestinationStore_Location": {
-				"type": "string",
-				"defaultValue": "https://stsancor.blob.core.windows.net/ejercicio4"
-			},
-			"DestinationStore_Directory": {
-				"type": "string",
-				"defaultValue": "https://stsancor.blob.core.windows.net/ejercicio4"
-			}
-		},
 		"annotations": []
 	}
 }
