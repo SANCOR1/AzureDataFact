@@ -59,68 +59,74 @@
 						"mappings": [
 							{
 								"source": {
+									"name": "ufn_sociedadesfoid",
 									"type": "String",
-									"ordinal": 1
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Prop_0",
+									"name": "ufn_sociedadesfoid",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ufn_name",
 									"type": "String",
-									"ordinal": 2
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Prop_1",
+									"name": "ufn_name",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ufn_clienteid",
 									"type": "String",
-									"ordinal": 3
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Prop_2",
+									"name": "ufn_clienteid",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ufn_paisid",
 									"type": "String",
-									"ordinal": 4
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Prop_3",
+									"name": "ufn_paisid",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ufn_estadosincronizacionfo",
 									"type": "String",
-									"ordinal": 5
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Prop_4",
+									"name": "ufn_estadosincronizacionfo",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "String"
 								}
 							},
 							{
 								"source": {
+									"name": "ufn_sociedadufinetid",
 									"type": "String",
-									"ordinal": 6
+									"physicalType": "String"
 								},
 								"sink": {
-									"name": "Prop_5",
+									"name": "ufn_sociedadufinetid",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "String"
 								}
 							}
 						],

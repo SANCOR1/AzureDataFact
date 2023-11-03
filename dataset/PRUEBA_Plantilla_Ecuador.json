@@ -18,21 +18,27 @@
 		},
 		"schema": [
 			{
+				"name": "ufn_sociedadesfoid",
 				"type": "String"
 			},
 			{
+				"name": "ufn_name",
 				"type": "String"
 			},
 			{
+				"name": "ufn_clienteid",
 				"type": "String"
 			},
 			{
+				"name": "ufn_paisid",
 				"type": "String"
 			},
 			{
+				"name": "ufn_estadosincronizacionfo",
 				"type": "String"
 			},
 			{
+				"name": "ufn_sociedadufinetid",
 				"type": "String"
 			}
 		]
