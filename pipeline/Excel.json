@@ -66,7 +66,7 @@
 								"sink": {
 									"name": "ufn_sociedadesfoid",
 									"type": "String",
-									"physicalType": "String"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -78,7 +78,7 @@
 								"sink": {
 									"name": "ufn_name",
 									"type": "String",
-									"physicalType": "String"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -90,7 +90,7 @@
 								"sink": {
 									"name": "ufn_clienteid",
 									"type": "String",
-									"physicalType": "String"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -102,7 +102,7 @@
 								"sink": {
 									"name": "ufn_paisid",
 									"type": "String",
-									"physicalType": "String"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -114,7 +114,7 @@
 								"sink": {
 									"name": "ufn_estadosincronizacionfo",
 									"type": "String",
-									"physicalType": "String"
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -126,7 +126,7 @@
 								"sink": {
 									"name": "ufn_sociedadufinetid",
 									"type": "String",
-									"physicalType": "String"
+									"physicalType": "nvarchar"
 								}
 							}
 						],
@@ -151,7 +151,7 @@
 							"schema": "prb",
 							"tabla": "testexcel",
 							"URL_KeyVault": "https://kv-almacenamientocurso.vault.azure.net/",
-							"SecretName_KeyVault": "Conexiòn DDBB1"
+							"SecretName_KeyVault": "DatabaseConectiondatabase1"
 						}
 					}
 				]
