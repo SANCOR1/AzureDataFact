@@ -17,17 +17,7 @@
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "DataSourceFolder",
-						"type": "DatasetReference",
-						"parameters": {
-							"contenedor": {
-								"value": "https://stsancor.blob.core.windows.net/ejercicio3/Creacion.xlsb",
-								"type": "Expression"
-							},
-							"directorio": {
-								"value": "https://stsancor.blob.core.windows.net/ejercicio3",
-								"type": "Expression"
-							}
-						}
+						"type": "DatasetReference"
 					},
 					"fieldList": [
 						"childItems"
@@ -123,21 +113,7 @@
 							"outputs": [
 								{
 									"referenceName": "DataSourceDestination",
-									"type": "DatasetReference",
-									"parameters": {
-										"contenedor": {
-											"value": "https://stsancor.blob.core.windows.net/ejercicio4",
-											"type": "Expression"
-										},
-										"directorio": {
-											"value": "https://stsancor.blob.core.windows.net/ejercicio4/Creacion.xlsb",
-											"type": "Expression"
-										},
-										"filename": {
-											"value": "@item().name",
-											"type": "Expression"
-										}
-									}
+									"type": "DatasetReference"
 								}
 							]
 						},
