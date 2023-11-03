@@ -45,11 +45,11 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('GetFileList').output.exists",
+						"value": "@activity('GetFileList').output.childItems",
 						"type": "Expression"
 					},
 					"condition": {
-						"value": "@activity('GetFileList').output.childItems",
+						"value": "@equals(item().type,'File')",
 						"type": "Expression"
 					}
 				}
