@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"dataset": {
+						"referenceName": "PRUEBA_Plantilla_Ecuador",
+						"type": "DatasetReference"
+					},
 					"timeout": "0.12:00:00",
 					"sleep": 10
 				}
@@ -32,8 +36,30 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"source": {
+						"type": "ExcelSource",
+						"additionalColumns": [
+							{
+								"name": "col_prueba",
+								"value": "19"
+							}
+						],
+						"storeSettings": {
+							"type": "AzureBlobStorageReadSettings",
+							"recursive": true,
+							"modifiedDatetimeStart": "2023-11-03T00:00:00.000Z",
+							"modifiedDatetimeEnd": "2023-11-02T02:00:00.000Z",
+							"enablePartitionDiscovery": false
+						}
+					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "PRUEBA_Plantilla_Ecuador",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
