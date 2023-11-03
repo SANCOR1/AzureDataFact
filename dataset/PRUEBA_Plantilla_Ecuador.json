@@ -13,7 +13,8 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "PRUEBA_Plantilla_Ecuador.xlsx",
 				"container": "ejercicio3"
-			}
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": [
 			{
